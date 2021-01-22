@@ -1,0 +1,23 @@
+body {
+  overflow-x: hidden;
+  }
+
+  #page-content-wrapper {
+  min-width: 100vw;
+  }
+  
+  @media (min-width: 768px) {
+ 
+  #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+  }
+
+  }
+  #wrapper{background-color: rgb(177, 177, 177);}
+
+  .btn-primary {
+    color: #fff;
+    background-color: #4c4c4c;
+    border-color: #4c4c4c;
+}
